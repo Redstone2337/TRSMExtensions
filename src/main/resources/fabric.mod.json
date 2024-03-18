@@ -30,8 +30,16 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*",
-		"trsm": ">=1.0.0+build.1",
-		"reforged": ">=0.0.1+build.2"
+		"reforged": ">=0.0.1+build.2",
+		"trsm": ">=1.0.0+build.1"
+	},
+	"custom": {
+    		"modmenu": {
+        	"parent": {
+            		"id": "reforged",
+            		"badges": [ "library" ]
+        		}
+    		}
 	},
 	"suggests": {
 		"another-mod": "*"
