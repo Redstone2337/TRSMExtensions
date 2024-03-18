@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "extend:extend_key"
+  },
+  "base": {
+    "item": "trsm:second_axe"
+  },
+  "result": {
+    "item": "trsm:combo_axe"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}
