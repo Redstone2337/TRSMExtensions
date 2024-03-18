@@ -34,3 +34,9 @@ jobs:
 
       - name: runDatagen
         run: ./gradlew runDatagen
+
+      - name: capture build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-${{ steps.ref.outputs.branch }}
+          path: src/main/generated
