@@ -1,4 +1,4 @@
-package com.redstone233.spawn.reforged.items;
+package com.redstone233.trsm.extension.items;
 
 import com.redstone233.trsm.extension.TRSMExtension;
 
