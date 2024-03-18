@@ -9,9 +9,9 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 
-public class ModModlesProvider extends FabricModelProvider {
+public class ExtendModModlesProvider extends FabricModelProvider {
 
-    public ModModlesProvider(FabricDataOutput output) {
+    public ExtendModModlesProvider(FabricDataOutput output) {
         super(output);
     }
 
