@@ -1,0 +1,36 @@
+name: runDatagen
+on:
+    workflow_dispatch:
+          inputs:
+              patch:
+                  description: Patch number, 0 for first (ex. Create 1.19.2 v0.5.0.g Patch N)
+                  required: true
+    pull_request:
+    push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      PUBLISH_SUFFIX: snapshots
+      MAVEN_USER: ${{ secrets.MAVEN_USER }}
+      MAVEN_PASS: ${{ secrets.MAVEN_PASS }}
+      PATCH_NUMBER: ${{ github.event.inputs.patch }}
+      PUBLISHING: ${{ github.event.inputs.publish }}
+    steps:
+
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: make gradle wrapper executable
+        run: chmod +x ./gradlew
+
+      - name: setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+
+      - name: runDatagen
+        run: ./gradlew runDatagen
