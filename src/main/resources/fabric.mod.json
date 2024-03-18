@@ -30,7 +30,7 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*",
-		"reforged": ">=0.0.1+build.2",
+		"reforged": ">=0.0.1+build.1",
 		"trsm": ">=1.0.0+build.1"
 	},
 	"custom": {
