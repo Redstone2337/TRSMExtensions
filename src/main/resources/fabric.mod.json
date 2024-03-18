@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "extend",
+	"version": "${version}",
+	"name": "TRSM Extension",
+	"description": "This is an extension pack for the TRSM mod.",
+	"authors": [
+		"Redstone233"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/extend/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.redstone233.trsm.extension.TRSMExtension"
+		],
+		"fabric-datagen": [
+			"com.redstone233.trsm.extension.TRSMExtensionDataGenerator"
+		]
+	},
+	"mixins": [
+		"extend.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
