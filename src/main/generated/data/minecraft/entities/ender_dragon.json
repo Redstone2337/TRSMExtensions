@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0.1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -18,6 +18,15 @@
             }
           ],
           "name": "extend:extend_item"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.9,
+      "entries": [
+        {
+          "type": "minecraft:empty"
         }
       ],
       "rolls": 1.0
