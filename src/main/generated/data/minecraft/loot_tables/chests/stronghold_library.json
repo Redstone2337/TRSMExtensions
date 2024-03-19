@@ -38,6 +38,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "trsm:prospector",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:map"
         }
         {

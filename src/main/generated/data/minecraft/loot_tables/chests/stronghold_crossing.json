@@ -130,6 +130,11 @@
           ],
           "name": "extend:extend_key",
           "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trsm:prospector",
+          "weight": 15
         }
       ],
       "rolls": {
