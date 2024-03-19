@@ -2,6 +2,16 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "bonus_rolls": 0.1,
       "entries": [
         {
@@ -17,20 +27,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "extend:extend_item"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.9,
-      "entries": [
-        {
-          "type": "minecraft:empty"
+          "name": "extend:extend_key"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/ender_dragon"
+  "random_sequence": "minecraft:entities/warden"
 }
