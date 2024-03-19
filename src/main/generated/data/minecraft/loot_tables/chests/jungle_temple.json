@@ -123,6 +123,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "trsm:reforged_item",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_horse_armor"
         },
         {
