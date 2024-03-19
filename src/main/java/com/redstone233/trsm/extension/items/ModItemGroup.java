@@ -21,8 +21,8 @@ public class ModItemGroup {
                 .icon(() -> new ItemStack(ModItems.EXTEND_ITEM))
                 .displayName(Text.translatable("itemGroup.extend_group"))
                 .entries((context, entries) -> {
-                    // entries.add(ModItems.REFORGED_ITEM);
-                    // entries.add(ModItems.REFORGED_FOOD);
+                    entries.add(ModItems.EXTEND_ITEM);
+                    entries.add(ModItems.EXTEND_KEY);
                     // entries.add(ModBlocks.REFORGED_BLOCK);
                     // entries.add(ModBlocks.REFORGED_BLOCK1);
                     // entries.add(ModBlocks.FIRE_REFORGED_BLOCK);
