@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
           inputs:
               patch:
-                  description: Patch number, 0 for first (ex. Create 1.19.2 v0.5.0.g Patch N)
+                  description: 进行fabric数据构建，可以手动，也可以自动。
                   required: true
     pull_request:
     push:
