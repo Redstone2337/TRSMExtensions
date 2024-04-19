@@ -119,6 +119,17 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"trsm:seckill\",lvl:1s}]}"
+            }
+          ],
+          "name": "minecraft:enchanted_book",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
