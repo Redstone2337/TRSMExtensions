@@ -61,7 +61,7 @@
             }
           ],
           "name": "minecraft:enchanted_book",
-          "weight": 15
+          "weight": 20
         },
         {
           "type": "minecraft:item",
