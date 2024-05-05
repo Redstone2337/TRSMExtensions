@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "extend:extend_key"
+    "item": "trsm:combo_ingot"
   },
   "base": {
     "item": "trsm:second_axe"
