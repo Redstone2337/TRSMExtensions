@@ -6,7 +6,7 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "extend:extend_item"
+      "item": "trsm:seckill_ingot"
     }
   },
   "pattern": [
